@@ -4,8 +4,6 @@ import Square from "./Comp/Square";
 import { Patterns } from "./Comp/Patterns";
 import Header from "./Header";
 
-
-
 function App() {
   const [board, setBoard] = useState(["", "", "", "", "", "", "", "", ""]);
   const [player, setPlayer] = useState("O");
